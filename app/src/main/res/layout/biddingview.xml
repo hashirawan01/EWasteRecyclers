@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardBackgroundColor="@color/white"
+    android:background="#FBFBFB"
+    android:elevation="5dp"
+    app:cardUseCompatPadding="true">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageViewfeedb"
+            android:layout_width="@dimen/_106sdp"
+            android:layout_height="@dimen/_106sdp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:civ_border_color="@color/black">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_10sdp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Name:"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nametextb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="NAme"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Phonnumber:"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                android:id="@+id/phoonnumberb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nametext"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/montserrat"
+                android:text="phoon"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Address:"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+                <TextView
+                android:id="@+id/addressb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phoonnumber"
+               android:fontFamily="@font/montserrat"
+                android:layout_marginLeft="5dp"
+                android:text="Address"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Bidding Price:"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            <TextView
+                android:id="@+id/bidingPricesb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phoonnumber"
+                android:layout_marginLeft="5dp"
+                android:text="Biding prices"
+                android:fontFamily="@font/montserrat"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Bidder Name:"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/biddername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_below="@id/phoonnumber"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="name"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ewasterecyclers">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EWasteRecyclers">
+        <activity
+            android:name=".userNewsFeedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".userLoginAcctivity"
+            android:exported="false" />
+        <activity
+            android:name=".BiddingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewsFeedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PricingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".loginPanelsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".uploadsImageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RateListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".employePanelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".userHomePanelActivity"
+            android:exported="true" />
+        <activity
+            android:name=".signUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token" />
+    </application>
+
+</manifest>

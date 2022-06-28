@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck"
+    tools:context=".loginPanelsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/idimage"
+        android:layout_width="@dimen/_206sdp"
+        android:layout_height="@dimen/_140sdp"
+        android:layout_gravity="center"
+        android:src="@drawable/elogo2"
+        app:civ_border_color="@color/black" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/firstCardView1"
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="@dimen/_160sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_184sdp"
+        android:layout_marginRight="@dimen/_26sdp"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:paddingRight="@dimen/_20sdp"
+        app:cardBackgroundColor="#F582A7"
+        app:cardCornerRadius="10dp"
+        app:cardMaxElevation="1dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+
+        <TextView
+            android:id="@+id/employeeAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/_48sdp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:text="I am an employee"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sdp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/firstCardView2"
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="@dimen/_160sdp"
+        android:layout_below="@+id/firstCardView1"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_26sdp"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:paddingRight="@dimen/_20sdp"
+        app:cardBackgroundColor="#E6D5B8"
+        app:cardCornerRadius="10dp"
+        app:cardMaxElevation="1dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+
+        <TextView
+            android:id="@+id/simpleuserAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:padding="@dimen/_48sdp"
+            android:text="I am a simple user"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sdp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

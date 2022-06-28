@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck"
+    tools:context=".uploadsImageActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/showimage"
+        android:layout_marginTop="@dimen/_10sdp"
+        />
+    <TextView
+        android:id="@+id/dataText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/data"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@color/white"
+        android:textFontWeight="700"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:textSize="@dimen/_40sdp"/>
+    <TextView
+        android:layout_below="@+id/dataText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/put_you_data_and_pic"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@color/white"
+        android:textFontWeight="100"
+        android:layout_marginLeft="@dimen/_40sdp"
+        android:textSize="@dimen/_10sdp"/>
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/uplodsImageView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="300dp"-->
+<!--        android:background=""-->
+<!--        android:backgroundTint="@color/graycolor"-->
+<!--        android:padding="@dimen/_20sdp"-->
+<!--        android:paddingRight="@dimen/_10sdp" />-->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_click_product11"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_170sdp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/white"
+        android:background="@color/white"
+        android:layout_marginBottom="5dp"
+        android:padding="@dimen/_20sdp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="1.0dp">
+
+
+        <RelativeLayout
+            android:id="@+id/idRelativeLayoutAddProductImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/dashed_border">
+
+            <ImageView
+                android:id="@+id/my_avatar"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:src="@drawable/imh">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/idBrowseimage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_75sdp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/_5sdp"
+                android:text="capture_image_here_or_browse"
+                android:textColor="@color/black"
+                android:textSize="14sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/idGalleryTextViewNote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_105sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/_5sdp"
+                android:text="available_jpg_jpeg_png_gif_max_size_3_mb"
+                android:textColor="#C0C0C0"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <EditText
+        android:id="@+id/idNAme"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/card_click_product11"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:background="@drawable/background_curve"
+        android:digits="_,qwertzuiopasdfghjklyxcvbnm,QWERTYUIOPASDFGHJKLZXCVBNM,0123456789"
+        android:fontFamily="@font/montserrat"
+        android:hint="@string/enter_your_name"
+        android:inputType="text"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:textColor="#991B1A1A"
+        android:textColorHint="#99232323"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/idPhoonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/idNAme"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:background="@drawable/background_curve"
+        android:fontFamily="@font/montserrat"
+        android:hint="@string/enter_your_phonenumber"
+        android:inputType="number"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:textColor="#99232323"
+        android:textColorHint="#99232323"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/idAddress"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/idPhoonenumber"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:background="@drawable/background_curve"
+        android:fontFamily="@font/montserrat"
+        android:hint="Enter Your Address"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:textColor="@color/black"
+        android:textColorHint="#99232323"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/submitBotton"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_below="@+id/idAddress"
+        android:layout_marginLeft="@dimen/_90sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/rounded_xml"
+        android:text="@string/submit"
+        android:textColor="@color/black" />
+
+
+
+</RelativeLayout>

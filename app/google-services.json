@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "196731094639",
+    "project_id": "e-waste-recyclers",
+    "storage_bucket": "e-waste-recyclers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196731094639:android:08d0f96a950b0a83d32f9a",
+        "android_client_info": {
+          "package_name": "com.example.ewasterecyclers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196731094639-635ot7or7trfnse0jrmrtauecmja8p0e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlV_oWSqA6XdW-T_iCtmACBs7RUrSMcBk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196731094639-635ot7or7trfnse0jrmrtauecmja8p0e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

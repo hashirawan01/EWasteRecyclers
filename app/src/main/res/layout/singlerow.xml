@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:padding="@dimen/_5sdp"
+    app:cardBackgroundColor="@color/white"
+    android:background="#FBFBFB"
+    android:elevation="5dp"
+    app:cardUseCompatPadding="true">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageViewfeed"
+            android:layout_width="@dimen/_106sdp"
+            android:layout_height="@dimen/_106sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            app:civ_border_color="@color/black">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Name:"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nametext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginLeft="10dp"
+            android:text="This"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Phone:"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/phoonnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_below="@id/nametext"
+            android:layout_marginLeft="10dp"
+            android:text="This"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Address:"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_below="@id/phoonnumber"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/montserrat"
+            android:text="duration"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+            </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/editicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/edit"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="25dp"
+                />
+
+            <ImageView
+                android:id="@+id/deleteicom"
+                android:layout_width="14dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_50sdp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_baseline_delete_24" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
