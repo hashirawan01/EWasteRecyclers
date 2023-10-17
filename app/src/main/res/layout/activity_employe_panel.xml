@@ -66,7 +66,7 @@
             android:layout_gravity="center"
             android:fontFamily="@font/montserrat"
             android:gravity="center"
-            android:text="Post a photo"
+            android:text="Search university"
             android:textColor="@color/black"
             android:textSize="@dimen/_20sdp" />
 
@@ -100,7 +100,7 @@
             android:gravity="center"
             android:layout_marginTop="@dimen/_5sdp"
             android:padding="@dimen/_8sdp"
-            android:text="News Feed"
+            android:text="Track Request"
             android:textColor="@color/black"
             android:textSize="@dimen/_20sdp" />
 
@@ -133,7 +133,7 @@
             android:padding="8dp"
             android:fontFamily="@font/montserrat"
             android:gravity="center"
-            android:text="Bidding"
+            android:text="Apply for scolorship"
             android:textColor="@color/black"
             android:textSize="@dimen/_20sdp" />
 
@@ -166,7 +166,7 @@
             android:fontFamily="@font/montserrat"
             android:gravity="center"
             android:padding="@dimen/_8sdp"
-            android:text="Pricing"
+            android:text="profile"
             android:textColor="@color/black"
             android:textSize="@dimen/_20sdp" />
 
@@ -179,7 +179,7 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/firstCardView4"
         android:layout_marginTop="20dp"
-        android:src="@drawable/footer" />
+        android:src="@drawable/footer1" />
 
 
 </RelativeLayout>

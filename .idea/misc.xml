@@ -3,6 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/EWasteRecyclers2/app/src/main/res/drawable-v24/background_curve.xml" value="0.138" />
+        <entry key="..\:/AndroidStudioProjects/EWasteRecyclers2/app/src/main/res/drawable-v24/ic_baseline_account_circle_24.xml" value="0.138" />
+        <entry key="..\:/AndroidStudioProjects/EWasteRecyclers2/app/src/main/res/drawable-v24/ic_baseline_more_vert_24.xml" value="0.138" />
+        <entry key="..\:/AndroidStudioProjects/EWasteRecyclers2/app/src/main/res/drawable-v24/ic_baseline_school_24.xml" value="0.138" />
+        <entry key="..\:/AndroidStudioProjects/EWasteRecyclers2/app/src/main/res/drawable-v24/login_btn.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/EWasteRecyclers2/app/src/main/res/drawable-v24/rounded_xml.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/EWasteRecyclers2/app/src/main/res/layout/activity_employe_panel.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/EWasteRecyclers2/app/src/main/res/layout/activity_login_panels.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/EWasteRecyclers2/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/EWasteRecyclers2/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/EWasteRecyclers2/app/src/main/res/layout/activity_news_feed.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/EWasteRecyclers2/app/src/main/res/layout/activity_pricing.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/EWasteRecyclers2/app/src/main/res/layout/activity_rate_list.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/EWasteRecyclers2/app/src/main/res/layout/activity_second.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/EWasteRecyclers2/app/src/main/res/layout/activity_sign_up.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/EWasteRecyclers2/app/src/main/res/layout/activity_splash.xml" value="0.1480978260869565" />
+        <entry key="..\:/AndroidStudioProjects/EWasteRecyclers2/app/src/main/res/layout/activity_user_home_panel.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/EWasteRecyclers2/app/src/main/res/layout/activity_user_login_acctivity.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/EWasteRecyclers2/app/src/main/res/layout/pricelist.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/EWasteRecyclers2/app/src/main/res/layout/usernewsfeed.xml" value="0.22826086956521738" />
         <entry key="..\:/EWasteRecyclers2/app/src/main/res/layout/activity_bidding.xml" value="0.17552083333333332" />
         <entry key="..\:/EWasteRecyclers2/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
       </map>

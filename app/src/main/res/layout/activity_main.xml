@@ -11,7 +11,7 @@
         android:layout_width="@dimen/_160sdp"
         android:layout_height="@dimen/_150sdp"
         android:layout_gravity="center"
-        android:src="@drawable/elogo2"
+        android:src="@drawable/logo1"
         app:civ_border_color="@color/black">
 
     </de.hdodenhof.circleimageview.CircleImageView>

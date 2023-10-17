@@ -66,21 +66,21 @@ public class employePanelActivity extends AppCompatActivity {
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(getApplicationContext(),userNewsFeedActivity.class);
+                Intent intent=new Intent(getApplicationContext(),MainActivity2.class);
                 startActivity(intent);
             }
         });
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(getApplicationContext(),BiddingActivity.class);
+                Intent intent=new Intent(getApplicationContext(),MainActivity2.class);
                 startActivity(intent);
             }
         });
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(getApplicationContext(),uploadsImageActivity.class);
+                Intent intent=new Intent(getApplicationContext(),MainActivity2.class);
                 startActivity(intent);
             }
         });
@@ -88,7 +88,7 @@ public class employePanelActivity extends AppCompatActivity {
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(getApplicationContext(),PricingActivity.class);
+                Intent intent=new Intent(getApplicationContext(),MainActivity2.class);
                 startActivity(intent);
             }
         });

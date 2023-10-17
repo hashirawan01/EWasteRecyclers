@@ -21,6 +21,7 @@ TextView t1,t2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_login_panels);
         t1=findViewById(R.id.employeeAccount);
         t2=findViewById(R.id.simpleuserAccount);

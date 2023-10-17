@@ -1,6 +1,5 @@
 package com.example.ewasterecyclers;
 
-import static android.icu.number.NumberRangeFormatter.with;
 
 import androidx.appcompat.app.AppCompatActivity;
 

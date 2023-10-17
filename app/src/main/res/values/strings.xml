@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">E Waste Recyclers</string>
+    <string name="app_name">Go Global</string>
     <string name="enter_you_address">Enter you address</string>
     <string name="enter_your_name">Enter_your Name</string>
     <string name="enter_your_address">enter_your_address</string>
-<!--    <string name="default_web_client_id">"196731094639-635ot7or7trfnse0jrmrtauecmja8p0e.apps.googleusercontent.com"</string>-->
+    <!--    <string name="default_web_client_id">"196731094639-635ot7or7trfnse0jrmrtauecmja8p0e.apps.googleusercontent.com"</string>-->
     <string name="facebook_app_id">957650661389889</string>
     <string name="fb_login_protocol_scheme">fb957650661389889</string>
     <string name="facebook_client_token">fefb84901ec419a699bda1a3b1421c89</string>
